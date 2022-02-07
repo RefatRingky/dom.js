@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+   <h1>Relation between html and css</h1> 
+   <article class="blog">
+       <h1>My blog one</h1>
+       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis sit quos molestias, natus libero deserunt, delectus excepturi animi, qui earum ea. Ea sapiente magnam voluptas consequatur beatae natus eius voluptatum.
+       Ipsa atque aliquid eos provident vitae repudiandae libero amet quaerat animi quibusdam voluptate consectetur nostrum, repellat iste? Maxime laboriosam iste necessitatibus expedita quam ullam quaerat tempora, error pariatur nihil officia.
+       Laboriosam, maiores voluptates. Enim deserunt consequatur quaerat quam, placeat libero eligendi quidem, facilis adipisci, dicta ad doloribus aperiam. Facilis autem consequatur corrupti deleniti laudantium quia nulla alias ratione tenetur. Repudiandae!
+       Molestias illo impedit itaque ex, unde repudiandae, ea veritatis fugit nesciunt quo exercitationem blanditiis reiciendis nobis quaerat cum. Sint fugiat vero quas delectus eius odit distinctio id quos laudantium a?
+   </article>
+   <article class="blog">
+       <h1>My blog one</h1>
+       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis sit quos molestias, natus libero deserunt, delectus excepturi animi, qui earum ea. Ea sapiente magnam voluptas consequatur beatae natus eius voluptatum.
+       Ipsa atque aliquid eos provident vitae repudiandae libero amet quaerat animi quibusdam voluptate consectetur nostrum, repellat iste? Maxime laboriosam iste necessitatibus expedita quam ullam quaerat tempora, error pariatur nihil officia.
+       Laboriosam, maiores voluptates. Enim deserunt consequatur quaerat quam, placeat libero eligendi quidem, facilis adipisci, dicta ad doloribus aperiam. Facilis autem consequatur corrupti deleniti laudantium quia nulla alias ratione tenetur. Repudiandae!
+       Molestias illo impedit itaque ex, unde repudiandae, ea veritatis fugit nesciunt quo exercitationem blanditiis reiciendis nobis quaerat cum. Sint fugiat vero quas delectus eius odit distinctio id quos laudantium a?
+   </article>
+   <article class="blog">
+       <h1>My blog one</h1>
+       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis sit quos molestias, natus libero deserunt, delectus excepturi animi, qui earum ea. Ea sapiente magnam voluptas consequatur beatae natus eius voluptatum.
+       Ipsa atque aliquid eos provident vitae repudiandae libero amet quaerat animi quibusdam voluptate consectetur nostrum, repellat iste? Maxime laboriosam iste necessitatibus expedita quam ullam quaerat tempora, error pariatur nihil officia.
+       Laboriosam, maiores voluptates. Enim deserunt consequatur quaerat quam, placeat libero eligendi quidem, facilis adipisci, dicta ad doloribus aperiam. Facilis autem consequatur corrupti deleniti laudantium quia nulla alias ratione tenetur. Repudiandae!
+       Molestias illo impedit itaque ex, unde repudiandae, ea veritatis fugit nesciunt quo exercitationem blanditiis reiciendis nobis quaerat cum. Sint fugiat vero quas delectus eius odit distinctio id quos laudantium a?
+   </article>
+   <script>
+    //    explore getElementsByClassName
+    const blogs = document.getElementsByClassName('blog');
+    for( const blog of blogs){
+        blog.style.border = '2px solid orange';
+        blog.style.borderRadius = '10px';
+        blog.style.padding ='5px';
+        blog.style.margin = '5px';
+    }
+   </script>
+</body>
+</html>
